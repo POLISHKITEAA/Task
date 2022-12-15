@@ -19,7 +19,6 @@ public class Main {
             }
             System.out.println();
         }
-
         // часть 3 - транспонирование матрицы
         for (int i = 0; i < n; i++) {
             for (int j = i+1; j < n; j++) {
@@ -28,7 +27,6 @@ public class Main {
                 a[j][i] = temp;
             }
         }
-
         // часть 4 - выводит на экран транспонированную матрицу
         System.out.println();
         System.out.println("Новая матрица");
